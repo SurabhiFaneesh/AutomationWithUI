@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/activemq-client-5.16.4.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axiom-api-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axiom-dom-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axiom-impl-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-adb-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-adb-codegen-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-codegen-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-jaxws-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-json-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-kernel-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-saaj-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-transport-http-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/axis2-transport-local-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/ecj-4.7.3a.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/httpcore-4.4.14.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jakarta.activation-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jakarta.mail-1.6.7.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jettison-1.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/json.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/neethi-3.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/scertcommon-08.00.22.01.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/slf4j-simple-1.7.30.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/VPAppLogClient_8.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/VPAppLogClientWS_8.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/VPWebServiceClient-07.22.04.01.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/weblm.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/woden-core-1.0M10.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/wsdl4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/wss4j-ws-security-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/wss4j-ws-security-dom-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/xmlschema-core-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.8/apache-tomcat-9.0.8/lib/xmlsec-2.3.0.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

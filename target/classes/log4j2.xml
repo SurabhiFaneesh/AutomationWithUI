@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration
+	xmlns="http://logging.apache.org/log4j/2.0/config">
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	<Appenders>
+		<!-- Rolling File Appender -->
+		<RollingFile name="RollingFile"
+			fileName="${basePath}/automation.log"
+			filePattern="${basePath}/srtracker.log.%i">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{1}.%M (%F:%L) - %m%n" />
+			<Policies>
+				<!-- TimeBasedTriggeringPolicy / -->
+				<SizeBasedTriggeringPolicy size="10000 kB" />
+			</Policies>
+			<DefaultRolloverStrategy max="100"
+				fileIndex="min" />
+		</RollingFile>
+
+		<RollingFile name="AlarmFile" fileName="${basePath}/.log"
+			filePattern="${basePath}/automation_alarm.log.%i">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{1}.%M (%F:%L) - %m%n" />
+			<ThresholdFilter level="error" onMatch="ACCEPT"
+				onMismatch="DENY" />
+			<Policies>
+				<!-- TimeBasedTriggeringPolicy / -->
+				<SizeBasedTriggeringPolicy size="10000 kB" />
+			</Policies>
+			<DefaultRolloverStrategy max="3"
+				fileIndex="min" />
+		</RollingFile>
+
+		<!-- File Appender <File name="FILE" fileName="${basePath}/logfile.log" 
+			append="true"> <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] 
+			%C{1}.%M (%F:%L) - %m%n" /> </File -->
+		<!-- Console Appender -->
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{1}.%M (%F:%L) - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.avaya" level="debug" additivity="false">
+			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="AlarmFile" />
+			<AppenderRef ref="STDOUT" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+</Configuration>

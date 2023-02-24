@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+		<display-name>Engineer Metrics</display-name>
+	
+	  <context-param>
+	    <param-name>org.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES</param-name>
+	    <param-value>false</param-value>
+	  </context-param>
+
+	  <context-param>
+	    <param-name>org.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES_ON_STOP</param-name>
+	    <param-value>false</param-value>
+	  </context-param>
+
+	  <context-param>
+	    <param-name>org.apache.catalina.core.JreMemoryLeakPreventionListener.ENABLE_CLEAR_REFERENCES</param-name>
+	    <param-value>false</param-value>
+	  </context-param>
+
+	  <listener>
+	    <listener-class>org.apache.catalina.core.JreMemoryLeakPreventionListener</listener-class>
+	  </listener>
+		
+		<welcome-file-list>
+			<welcome-file>index.jsp</welcome-file>
+		</welcome-file-list>
+		<servlet>
+			<servlet-name>EntryPoint</servlet-name>
+			<servlet-class>EntryPoint</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>EntryPoint</servlet-name>
+			<url-pattern>/</url-pattern>
+		</servlet-mapping>
+
+</web-app>
